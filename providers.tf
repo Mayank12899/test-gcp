@@ -1,10 +1,7 @@
 terraform {
-  required_provider{
+  required_providers{
     google = {
         source = "hashicorp/google"
-    }
-    google_beta ={
-        source = "hashicorp/google-beta"
     }
   }
 }
