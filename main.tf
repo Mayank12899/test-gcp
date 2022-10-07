@@ -7,6 +7,5 @@ module "VPC" {
 # Create a firewall rule
 module "Firewall" {
   source = "./modules/Firewall"
-  network = var.vpc_name
 }
 # Create a GCE Instance
